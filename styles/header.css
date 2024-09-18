@@ -57,6 +57,9 @@
 .container__botao {
     display: none;
 }
+.conteiner__texto {
+    display__none;
+}
 
 @media screen and (min-width: 1024px) {
 .container__titulo,
@@ -105,3 +108,21 @@ display: flex;
 }
 }
 
+@media creen and (min-width: 1728px) {
+    .container__link {
+        display: flex;
+        align-items:center;
+        text-decoration: none;
+        color: var(--preto);
+        padding-right: 36px;
+    }
+
+.opções {
+    margin-right: auto;
+}
+    .conteiner__texto {
+        display:block;
+    }
+
+}
+        
